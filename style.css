@@ -1,0 +1,66 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 62.5%;
+}
+
+header{
+    background-color: #F5F5F5;
+	height: 58px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+	display: flex;
+	align-items: center;
+	
+}
+
+header .burger{
+	width: 20px;
+	padding: 10px;
+}
+
+header .burger div {
+	height: 2px;
+	width: 100%;
+	background: #000;
+	margin: 4px auto;
+}
+
+header p{
+	font-size: 1.2rem;
+}
+
+h1{
+	font-size: 1.5rem;
+	margin: 80px auto;
+}
+
+main .container{
+	margin: 20px;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 400px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.item{
+	width: 33.3%;
+	margin: 8px;
+	background-color: #F5F5F5;
+	display: flex;
+	flex-direction: row;
+}
+
+@media screen and (max-width: 500px){
+	.item{
+		width: 100%;
+	}
+}
+
+h2{
+	margin: 10px 10px;
+	font-size: 1.1rem;
+}

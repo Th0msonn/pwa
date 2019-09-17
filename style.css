@@ -12,6 +12,10 @@ header{
 	
 }
 
+.burger nav{
+	display: block;
+}
+
 header .burger{
 	width: 20px;
 	padding: 10px;
@@ -63,4 +67,22 @@ main .container{
 h2{
 	margin: 10px 10px;
 	font-size: 1.1rem;
+}
+
+header nav{
+	position: fixed;
+	background: #FFF;
+	height: 100vh;
+	width: 200px;
+	top:0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+	transform:  translateX(-200px);
+	transition: transform 0.3s ease;
+}
+
+header nav.active{
+	transform:  translateX(0px);
 }

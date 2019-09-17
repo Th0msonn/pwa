@@ -44,7 +44,7 @@ main .container{
 .content{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	height: 400px;
 	align-items: center;
 	flex-wrap: wrap;
@@ -81,8 +81,25 @@ header nav{
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
 	transform:  translateX(-200px);
 	transition: transform 0.3s ease;
+	
 }
 
 header nav.active{
 	transform:  translateX(0px);
+}
+
+.onglets{
+	font-size: 1.2rem;
+	color: #000;
+	background-color: #F5F5F5;
+	padding: 15px 8px;
+	border-bottom: solid grey 1px;
+	text-decoration: none;
+}
+
+#ligne{
+	width: 100%;
+	height: 1px;
+	background: grey;
+	margin: 7px 0;
 }

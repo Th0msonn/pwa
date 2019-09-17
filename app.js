@@ -1,3 +1,13 @@
+//Déclaration du Service worker
+
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register("/sw.js").then(function () {
+        console.log('SW inscrit');
+    });
+}
+
+
+
 //let bouton_menu = document.querySelector(".burger");
 //let menu = document.querySelector("header nav");
 
